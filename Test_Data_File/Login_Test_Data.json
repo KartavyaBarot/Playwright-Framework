@@ -1,0 +1,17 @@
+[
+    {
+        "Username" : "kartavyabarot@yopmail.com",
+        "Password" : "Test@123",
+        "ProductName": "ADIDAS ORIGINAL",
+        "CardNumber" : "4242 4242 4242 4242",
+        "Ex_Date" : "05",
+        "Ex_Month" : "25",
+        "CVV" : "121",
+        "Name": "Test Automation",
+        "CouponCode" : "rahulshettyacademy",
+        "CountyCode" : "Ind",
+        "CountryName" : "India"
+    }
+]
+
+    
