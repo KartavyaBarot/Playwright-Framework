@@ -12,6 +12,7 @@
   "devDependencies": {
     "@playwright/test": "^1.46.1",
     "@types/node": "^20.14.9",
+    "allure-cucumberjs": "^3.0.0-beta.10",
     "allure-playwright": "^3.0.0-beta.7"
   },
   "dependencies": {
