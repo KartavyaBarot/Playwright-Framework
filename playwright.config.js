@@ -3,7 +3,7 @@ const { defineConfig, devices } = require('@playwright/test');
 
 module.exports = defineConfig({
   testDir: './tests',
-  //retries: 1,
+  retries: 1,
   workers: 2,
 
   timeout: 30 * 1000,
@@ -11,15 +11,16 @@ module.exports = defineConfig({
     timeout: 5000,
   },
 
-  reporter: 'html',
+  reporter: [
+    ['list'],
+    ['allure-playwright']
+  ],
 
   use: {
     trace: 'on-first-retry',
   },
 
-
   projects: [
-  
     {
       name: 'Chrome',
       use: {
@@ -33,3 +34,4 @@ module.exports = defineConfig({
     },
   ],
 });
+
